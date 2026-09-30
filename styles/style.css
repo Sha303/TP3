@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(235, 232, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 32px
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    margin-right: auto
+}
+.logo>div{
+    font-size: 30px;
+    color: rgb(32, 35, 37);
+}
+.nav{
+    color: rgb(46, 68, 46);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
