@@ -4,6 +4,9 @@ body{
     margin: 0;
 
 }
+img{
+    size: 100%;
+}
 
 /*--------------------*/
 /*       Header       */
@@ -14,6 +17,7 @@ header{
     gap: 32px;    
     padding: 10px;
     background-color: #b8d3b3;
+    margin-bottom: 30px;
 }
 .logo{
     display: flex;
@@ -28,7 +32,7 @@ header{
     font-family: 'Berkshire Swash';
 }
 .nav{
-    color: rgb(46, 68, 46);
+    color: #2e442e;
     text-decoration: none;
     font-weight: bold;
     font-size: 23px;
@@ -40,5 +44,25 @@ header{
 /*--------------------*/
 .hero{
     min-height: 100vh;
-    background:linear-gradient(#b0ceaa, #ebe8db, #d2b6d6)
+    background:linear-gradient(#b0ceaa, #ebe8db, #d2b6d6);
+}
+main>a{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Berkshire Swash';
+    margin-bottom: 10px;
+}
+
+/*--------------------*/
+/*        Body        */
+/*--------------------*/
+.map{
+    background: rgb(89, 122, 133);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 3px solid #2e442e;
 }
