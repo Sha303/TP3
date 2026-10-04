@@ -1,11 +1,19 @@
 body{
-    background-color: rgb(235, 232, 219);
+    background-color: #d2b6d6;
     font-family: 'Indie Flower';
+    margin: 0;
+
 }
+
+/*--------------------*/
+/*       Header       */
+/*--------------------*/
 header{
     display: flex;
     align-items: center;
-    gap: 32px
+    gap: 32px;    
+    padding: 10px;
+    background-color: #b8d3b3;
 }
 .logo{
     display: flex;
@@ -25,4 +33,12 @@ header{
     font-weight: bold;
     font-size: 23px;
     margin-right: 30px;
+    padding-top: 4px;
+}
+/*--------------------*/
+/*    Hero section    */
+/*--------------------*/
+.hero{
+    min-height: 100vh;
+    background:linear-gradient(#b0ceaa, #ebe8db, #d2b6d6)
 }
